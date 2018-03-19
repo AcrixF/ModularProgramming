@@ -20,3 +20,5 @@ function setTestValue( value ) {
 var theNumberExaminer = setTestValue( 6 );
 var result = theNumberExaminer( 2 );
 console.log( result );
+
+console.log(setTestValue(4)(2));
